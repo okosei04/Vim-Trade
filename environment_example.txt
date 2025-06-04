@@ -1,0 +1,28 @@
+# Copy this file to .env and fill in your actual values
+
+# API Keys
+ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key_here
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+TELEGRAM_CHAT_ID=your_telegram_chat_id_here
+
+# Trading Parameters
+INITIAL_CAPITAL=10000
+MAX_POSITION_SIZE=0.1
+STOP_LOSS_PERCENTAGE=0.05
+TAKE_PROFIT_PERCENTAGE=0.15
+
+# AI Model Parameters
+LSTM_LOOKBACK_DAYS=60
+PREDICTION_DAYS=5
+MODEL_RETRAIN_FREQUENCY=7
+
+# Risk Management
+MAX_DAILY_LOSS=0.02
+MAX_PORTFOLIO_RISK=0.1
+
+# Database
+DATABASE_URL=sqlite:///trading_bot.db
+
+# Logging
+LOG_LEVEL=INFO
+LOG_FILE=trading_bot.log 
