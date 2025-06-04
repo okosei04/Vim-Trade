@@ -128,13 +128,6 @@ Output: BUY/SELL/HOLD with confidence scores
 - Daily portfolio loss limit of 2%
 - Value-at-Risk monitoring at 95% confidence
 
-## 🤝 **Contributing**
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## 📄 **License**
 
@@ -144,13 +137,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This software is for educational and research purposes only. Trading stocks involves substantial risk of loss and is not suitable for all investors. Past performance does not guarantee future results. The authors are not responsible for any financial losses incurred through the use of this software.
 
-## 🙏 **Acknowledgments**
+## 🙏 **APIS AND TOOLS
 
 - [Yahoo Finance](https://finance.yahoo.com/) for market data
 - [Alpha Vantage](https://www.alphavantage.co/) for financial APIs
 - [Streamlit](https://streamlit.io/) for the web framework
 - [TensorFlow](https://tensorflow.org/) for machine learning capabilities
-
----
-
-**Built with ❤️ for algorithmic trading enthusiasts** 
+* 
