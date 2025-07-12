@@ -1,0 +1,20 @@
+api_keys:
+  alpha_vantage: "YOUR_ALPHA_VANTAGE_KEY"
+  other_service: "YOUR_OTHER_SERVICE_KEY"
+
+data_sources:
+  stock_data_url: "https://api.example.com/stock"
+
+model:
+  type: "simple"
+  parameters:
+    learning_rate: 0.01
+    epochs: 10
+
+trading:
+  strategy: "mean_reversion"
+  max_positions: 5
+
+logging:
+  level: "INFO"
+  file: "logs/app.log" 

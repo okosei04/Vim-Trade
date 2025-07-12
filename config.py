@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+import yaml
 
 load_dotenv()
 
@@ -27,7 +28,7 @@ class Config:
     # Data Sources
     DEFAULT_SYMBOLS = ['AAPL', 'GOOGL', 'MSFT', 'TSLA', 'AMZN', 'META', 'NVDA', 'SPY']
     
-    # Sentiment Analysis
+    
     NEWS_SOURCES = [
         'https://finance.yahoo.com/news/',
         'https://www.marketwatch.com/',
@@ -40,3 +41,9 @@ class Config:
     # Logging
     LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
     LOG_FILE = os.getenv('LOG_FILE', 'trading_bot.log') 
+
+def load_config(path="config.yaml"):
+    with open(path, "r") as f:
+        return yaml.safe_load(f)
+
+config = load_config() 
