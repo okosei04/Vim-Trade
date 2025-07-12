@@ -1,17 +1,17 @@
-# Environment and Configuration Files
+
 .env
 .env.*
 environment.txt
 config_local.py
 
-# User-specified exclusions
+
 install_troubleshooting.py
 install_windows.py
 AI_TRADING_SYSTEM_TECHNICAL_GUIDE.md
 requirements_minimal.txt
 test_windows.py
 
-# Python
+
 __pycache__/
 *.py[cod]
 *$py.class
@@ -70,10 +70,10 @@ historical_data/
 logs/
 trading_logs/
 
-# Jupyter Notebooks
+
 .ipynb_checkpoints/
 
-# Operating System
+
 .DS_Store
 .DS_Store?
 ._*
@@ -82,27 +82,27 @@ trading_logs/
 ehthumbs.db
 Thumbs.db
 
-# Temporary Files
+
 *.tmp
 *.temp
 temp/
 tmp/
 
-# API Keys and Secrets
+
 secrets.py
 api_keys.py
 credentials.json
 
-# Local Development
+
 local_config.py
 development.py
 test_data/
 
-# Performance and Profiling
+
 *.prof
 .coverage
 htmlcov/
 
-# Documentation Build
+
 docs/_build/
 site/ 
