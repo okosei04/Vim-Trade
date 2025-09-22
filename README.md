@@ -30,13 +30,6 @@ An intelligent algorithmic trading system that combines machine learning, sentim
 - **Sentiment Analysis**: VADER, TextBlob, BeautifulSoup
 - **Async Processing**: asyncio, aiohttp
 
-## 📦 **Installation**
-
-### Prerequisites
-- Python 3.8+
-- 8GB+ RAM recommended
-- API keys (free Alpha Vantage account)
-
 ### Setup
 ```bash
 # Clone repository
